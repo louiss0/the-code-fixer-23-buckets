@@ -1,4 +1,4 @@
-= My Scoop Bucket
+= The Code Fixer 23 Scoop Buckets
 
 An assortment of manifests for the https://scoop.sh/[Scoop] package manager!
 
@@ -12,6 +12,20 @@ This repository serves as a custom Scoop bucket, hosting a collection of applica
 - <<Reporting Issues>>
 - <<Feature Requests>>
 - <<Purpose of a Bucket>>
+
+==  Buckets
+
+This section is dedicated to describing the purpose of each Bucket
+
+.JavaScript Package Delegator
+[Note]
+====
+https://github.com/louiss0/javascript-package-delegator[`javascript-package-delegator` (jpd)] simplifies the execution of package manager commands in JavaScript/Node.js projects.
+It automatically detects the appropriate package manager (npm, yarn, pnpm) based on project configuration.
+Jpd then delegates the given command to the detected package manager, ensuring consistent behavior.
+It streamlines workflows by removing the need to manually determine and use the correct package manager command.
+This tool improves developer experience, reduces errors, and saves time when working across different projects.
+====
 
 == Introduction
 
@@ -52,7 +66,3 @@ If you encounter any issues with the manifests in this bucket (e.g., broken link
  == Feature Requests
 
 Have a suggestion for a new application to add to this bucket? Feel free to submit a feature request by creating a new issue in this repository. Please provide as much detail as possible about the application you'd like to see added.
-
-== Purpose of a Bucket
-
-In Scoop, a bucket is a collection of application manifests. Each manifest is a JSON file that describes how to install a specific application. Buckets allow users to easily discover and install applications that are not included in the main Scoop bucket. This repository serves as a bucket, providing a convenient way to distribute and manage custom Scoop manifests.

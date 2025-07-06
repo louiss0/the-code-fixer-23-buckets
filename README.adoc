@@ -1,0 +1,58 @@
+= My Scoop Bucket
+
+An assortment of manifests for the https://scoop.sh/[Scoop] package manager!
+
+This repository serves as a custom Scoop bucket, hosting a collection of application manifests for easy installation on Windows.
+
+== Table of Contents
+
+- <<Introduction>>
+- <<Getting Started>>
+- <<Contributing>>
+- <<Reporting Issues>>
+- <<Feature Requests>>
+- <<Purpose of a Bucket>>
+
+== Introduction
+
+Welcome to my personal Scoop bucket! Here, you'll find a curated collection of Scoop manifests for various applications. This bucket is designed to extend the functionality of Scoop by providing access to apps not available in the main bucket.
+
+== Getting Started
+
+To add this bucket to your Scoop installation, run the following command:
+
+```pwsh
+scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
+```
+
+Replace `<bucketname>` with a name for this bucket and `<username>/<bucketname>` with the actual GitHub username and repository name.
+
+Once the bucket is added, you can install applications using:
+
+```pwsh
+scoop install <bucketname>/<manifestname>
+```
+
+Replace `<manifestname>` with the name of the application's manifest file (without the `.json` extension).
+
+== Contributing
+
+If you'd like to contribute new manifests to this bucket, please follow these steps:
+
+1.  Fork this repository.
+2.  Create a new manifest file in the `bucket/` directory, using the `bucket/app-name.json.template` as a template.
+3.  Submit a pull request with your changes.
+
+Please refer to the official https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md[Scoop Contributing Guide] and https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests[App Manifests Wiki] for more information on creating and contributing manifests.
+
+== Reporting Issues
+
+If you encounter any issues with the manifests in this bucket (e.g., broken links, installation problems), please report them by creating a new issue in this repository. To help me quickly address the issue, label the issue with the manifest name of the bucket the issue pertains to. For example, if you are having issues with the `foo` application, label the issue `foo`.
+
+ == Feature Requests
+
+Have a suggestion for a new application to add to this bucket? Feel free to submit a feature request by creating a new issue in this repository. Please provide as much detail as possible about the application you'd like to see added.
+
+== Purpose of a Bucket
+
+In Scoop, a bucket is a collection of application manifests. Each manifest is a JSON file that describes how to install a specific application. Buckets allow users to easily discover and install applications that are not included in the main Scoop bucket. This repository serves as a bucket, providing a convenient way to distribute and manage custom Scoop manifests.

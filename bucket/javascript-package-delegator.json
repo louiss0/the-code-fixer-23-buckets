@@ -1,14 +1,20 @@
 {
-    "version": "1.0.0",
-    "license": "MIT",
+    "version": "1.0.1",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/louiss0/javascript-package-delegator/releases/download/v1.0.0/javascript-package-delegator_1.0.0_windows_arm64.zip",
-            "bin": ["jpd.exe"],
-            "hash": "d20247c7091f3fe61719fd1699db39d28383bdf1c4963ce0b47d57979804fc66"
+            "url": "https://github.com/louiss0/javascript-package-delegator/releases/download/v1.0.1/javascript-package-delegator_1.0.1_windows_arm64.zip",
+            "bin": [
+                "jpd.exe"
+            ],
+            "hash": "ca8e26014e31ebe3d4bbe05120b56a0d0641119e007f7c124643dcb04462fd2d"
         }
     },
-    "homepage": "https://github.com/louiss0/javascript-package-delegator/tree/main?tab=readme-ov-file#javascript-package-delegator-a-universal-javascript-package-manager-cli",
-    "description": "A tool to delegate package installation to JavaScript package managers.",
-    "shortcuts": [["javascript-package-delegator.exe", "jpd"]]
+    "homepage": "https://github.com/louiss0/javascript-package-delegator",
+    "description": "A CLI for executing Javascript Package Manager Commands based on lock files. Supported's deno,bun, and all node package managers",
+    "shortcuts": [
+        [
+            "javascript-package-delegator.exe",
+            "jpd"
+        ]
+    ]
 }

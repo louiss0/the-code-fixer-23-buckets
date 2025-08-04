@@ -9,6 +9,7 @@
             "hash": "4badd527e04fe2c4e27f8caa13018803a1cf78a4b3e032804cfd7d7b54ff3a86"
         }
     },
+    "license": "MIT",
     "homepage": "https://github.com/louiss0/javascript-package-delegator",
     "description": "A CLI for executing Javascript Package Manager Commands based on lock files. Supported's deno,bun, and all node package managers",
     "shortcuts": [

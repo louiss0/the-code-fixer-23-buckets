@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.2.1",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/louiss0/javascript-package-delegator/releases/download/v1.3.0/javascript-package-delegator_1.3.0_windows_arm64.zip",
+            "url": "https://github.com/louiss0/javascript-package-delegator/releases/download/v1.2.1/javascript-package-delegator_1.2.1_windows_arm64.zip",
             "bin": [
                 "jpd.exe"
             ],
-            "hash": "ea78fc1cee22938708ded9a1787938feb2ff57606e1464b9633de87498b58645"
+            "hash": "00e508b23ccc1e3c130318456af3980e65703151e7c705530bc84cd0405a4c66"
         }
     },
     "homepage": "https://github.com/louiss0/javascript-package-delegator",

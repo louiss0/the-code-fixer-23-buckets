@@ -6,10 +6,10 @@
             "bin": [
                 "jpd.exe"
             ],
-            "hash": "00e508b23ccc1e3c130318456af3980e65703151e7c705530bc84cd0405a4c66"
+            "hash": "b90f0403a6e570d322a3d8bb9e2a2b22a6886baaae23242bb10646c9654cefa0"
         }
     },
     "homepage": "https://github.com/louiss0/javascript-package-delegator",
     "license": "MIT",
-    "description": "A CLI for executing Javascript Package Manager Commands based on lock files. Supported's deno,bun, and all node package managers"
+    "description": "A CLI for executing JavaScript package manager commands based on lock files. Supports npm, yarn, pnpm, bun, and deno."
 }

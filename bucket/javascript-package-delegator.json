@@ -1,15 +1,15 @@
 {
-    "version": "3.0.2-alpha",
+    "version": "4.0.0",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/Sheltons-CLI-Projects/javascript-package-delegator/releases/download/v3.0.2-alpha/javascript-package-delegator_3.0.2-alpha_windows_arm64.zip",
+            "url": "https://github.com/louiss0/javascript-package-delegator/releases/download/v4.0.0/javascript-package-delegator_4.0.0_windows_arm64.zip",
             "bin": [
                 "jpd.exe"
             ],
-            "hash": "45d28fa33d265e118f00ffb6ee7261f427ed36a0759320137592b34259b5ab5b"
+            "hash": "6ad653f7aacb2ab9591506acb18896caa40e79285cef724a960f03209dabebaf"
         }
     },
-    "homepage": "https://github.com/Sheltons-CLI-Projects/javascript-package-delegator",
+    "homepage": "https://github.com/louiss0/javascript-package-delegator",
     "license": "MIT",
     "description": "A CLI for executing JavaScript package manager commands based on lock files. Supports npm, yarn, pnpm, bun, and deno."
 }
